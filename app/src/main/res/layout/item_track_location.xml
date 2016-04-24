@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12345"/>
+
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12.345678"/>
+
+    <TextView
+        android:id="@+id/lon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12.23345566"/>
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#101010"/>
+</LinearLayout>
